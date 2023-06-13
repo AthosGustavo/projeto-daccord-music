@@ -102,6 +102,15 @@ const LicaoItem = ({ licao, editarLicao, excluirLicao, verLicao }) => {
                                 onChange={atualizaValorInputEdicao}
                             />
                         </Form.Group>
+                        <Form.Group controlId="formName" className='mt-3'>
+                            <Form.Label>Link:</Form.Label>
+                            <Form.Control
+                                type="text"
+                                name="link"
+                                value={licaoEditada.link || ''}
+                                onChange={atualizaValorInputEdicao}
+                            />
+                        </Form.Group>
 
                         
 
