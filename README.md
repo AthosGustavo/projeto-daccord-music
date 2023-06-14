@@ -14,6 +14,7 @@ Antes de rodar a api no VSCODE ou PyCharm, é necessário instalar os seguintes 
 
 #### Front-end
 Antes de rodar a aplicação React, deve-se seguir os passos
+ - Navegue até a pasta raiz usando o comando cd no terminal do NodeJS
  - Ao baixar o arquivo, observe se a pasta 'node modules' veio acompanhada, caso não venha, use o comando npm install no terminal do NodeJS
  - instale React Router : npm install react-router-dom
  - instale React Bootstrap : npm install react-bootstrap bootstrap
