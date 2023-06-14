@@ -13,9 +13,11 @@ Antes de rodar a api no VSCODE ou PyCharm, é necessário instalar os seguintes 
  - Flask: pip install flask
 
 #### Front-end
-Antes de rodar a aplicação React, deve-se instalar os seguintes pacotes
- - React Router : npm install react-router-dom
- - React Bootstrap : npm install react-bootstrap bootstrap
+Antes de rodar a aplicação React, deve-se seguir os passos
+ - Ao baixar o arquivo, observe se a pasta 'node modules' veio acompanhada, caso não venha, use o comando npm install no terminal do NodeJS
+ - instale React Router : npm install react-router-dom
+ - instale React Bootstrap : npm install react-bootstrap bootstrap
+ - Por fim use npm start no terminal do Node
 
 
 
